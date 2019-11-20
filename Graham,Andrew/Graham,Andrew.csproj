@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{763BB2B0-C069-4A11-9C28-6E507CFC7143}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Graham_Andrew</RootNamespace>
+    <AssemblyName>Graham_Andrew</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1A4FC80C1EE96D64D74DA17FFB85CE296EAC478B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Graham,Andrew_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hooke%27s Constant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hooke%27s Constant.Designer.cs">
+      <DependentUpon>Hooke%27s Constant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaderBoard.Designer.cs">
+      <DependentUpon>LeaderBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logon.Designer.cs">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogOut.Designer.cs">
+      <DependentUpon>LogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasuringCylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeasuringCylinder.Designer.cs">
+      <DependentUpon>MeasuringCylinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpinningWheel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpinningWheel.Designer.cs">
+      <DependentUpon>SpinningWheel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="VerticalProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hooke%27s Constant.resx">
+      <DependentUpon>Hooke%27s Constant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderBoard.resx">
+      <DependentUpon>LeaderBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logon.resx">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogOut.resx">
+      <DependentUpon>LogOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeasuringCylinder.resx">
+      <DependentUpon>MeasuringCylinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpinningWheel.resx">
+      <DependentUpon>SpinningWheel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinningWheel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\spiningWheelSpinning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spining-WheelSpinning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MeasuringScale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Measuring_cylinder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Measuring_cylinder_Scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\MarieCurieTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\nielesBohrTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\StephenHawkingsTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\AlbertEinstienTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmptySpring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01Spring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02Spring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58287.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
